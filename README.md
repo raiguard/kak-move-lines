@@ -20,3 +20,8 @@ map global normal <c-s-k> ': move-lines-up %val{count}<ret>'
 Note the use of single quotes and `%val{count}`. This allows you to optionally
 specify the number of lines to move by - `<c-s-j>` will move down one line, but
 `15<c-s-j>` will move down 15 lines.
+
+## Contributing
+
+Please send questions, bug reports, patches, etc. to the
+[mailing list](https://lists.sr.ht/~raiguard/public-inbox).
